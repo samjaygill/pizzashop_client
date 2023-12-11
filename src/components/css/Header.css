@@ -1,0 +1,79 @@
+.header {
+  background-color: white;
+  height: 230px;
+  border-radius: 5px;
+}
+.logo {
+  text-align: center;
+  padding-top: 20px;
+}
+.logo-icon {
+  height: 165px;
+  width: auto;
+}
+.logo-link {
+  cursor: pointer;
+}
+.basket-icon {
+  height: 40px;
+  width: auto;
+  margin: 10px 10px 0 0;
+}
+.basket-link {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  z-index: 2;
+  cursor: pointer;
+}
+.header-links {
+  text-align: center;
+  padding: 5px 0;
+}
+.pizza-link,
+.pasta-link,
+.wraps-link,
+.desserts-link,
+.drinks-link {
+  color: #7e0f0f;
+  padding: 0 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.pizza-link:hover,
+.pasta-link:hover,
+.wraps-link:hover,
+.desserts-link:hover,
+.drinks-link:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 300px) and (max-width: 1026px) {
+  .logo {
+    padding-top: 5px;
+  }
+  .logo-icon {
+    height: 140px;
+    width: auto;
+  }
+  .basket-icon {
+    height: 30px;
+    width: auto;
+    margin: 5px 5px 0 0;
+  }
+  .header-links {
+    padding: 2px 0;
+  }
+
+  .pizza-link,
+  .pasta-link,
+  .wraps-link,
+  .desserts-link,
+  .drinks-link {
+    padding: 0 10px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+}
