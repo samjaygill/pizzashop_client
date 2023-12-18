@@ -1,11 +1,11 @@
 .header {
   background-color: white;
-  height: 200px;
+  height: 180px;
   border-radius: 5px;
 }
 .logo {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .logo-icon {
   height: 160px;
