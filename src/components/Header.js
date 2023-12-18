@@ -12,7 +12,7 @@ const Header = () => {
           <img src={logo} alt="logo" className="logo-icon" />
         </Link>
       </div>
-      <div className="header-links">
+      {/* <div className="header-links">
         <Link to="/pizza" className="pizza-link">
           Pizza
         </Link>
@@ -28,7 +28,7 @@ const Header = () => {
         <Link to="/drinks" className="drinks-link">
           Drinks
         </Link>
-      </div>
+      </div> */}
       <div className="basket">
         <Link to="/basket" className="basket-link">
           <img src={basket} alt="basket" className="basket-icon" />
